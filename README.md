@@ -1,5 +1,11 @@
-# Redis-Message-Queue
-For starting redis, use docker
-Command -> docker run --name my-redis -d -p 6379:6379 redis
+# Redis Message Queue
 
-docker exec -it <container_id> /bin/bash lets you run redis-cli inside the container
+This project demonstrates how to set up and use a Redis-based message queue.
+
+
+### Start Redis Using Docker
+
+To run Redis in a Docker container, use the following command:
+
+```bash
+docker run --name my-redis -d -p 6379:6379 redis
